@@ -1,29 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Total Sum </title>
-
-</head>
-<body>
-    
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Total Sum</title>
+  </head>
+  <body>
     <script>
+      let sum = 0;
 
+      const items = [1200, 500, 800]; // items prices
 
-let sum = 0
+      for (let i = 0; i < 3; i++) {
+        sum = sum + items[i];
+      }
 
-const items = [1200, 500, 800] // items prices 
-
-for (let i = 0; i < 3 ; i++ )  
-{
-    sum = sum + items [i]  
-}
-
-console.log(sum);
-
-
+      console.log(sum);
     </script>
-</body>
+  </body>
 </html>
